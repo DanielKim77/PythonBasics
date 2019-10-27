@@ -1,3 +1,4 @@
+d=1
 def add(a, b):
 	answer = a+ b
 	return answer
@@ -23,10 +24,6 @@ def exponents(a,b):
 	return answer
 answer= exponents(1,2)
 
-def SquareRoots (a,b):
-	answer=a**1/b
-	return answer
-answer= SquareRoots(1,1)
 def calculator():
 	a=input('enter number ')
 	b=input('enter other number ')
